@@ -1,0 +1,33 @@
+body{
+    background-image:url("../images/windowswithframe.jpeg");
+    background-size:cover;
+    background-position-y: -60px;
+    cursor:url(../images/cursor.png), auto;
+    width:100%;
+}
+.folder{
+    width:60px;
+    height: 50px;
+    background-image: url(../images/folder.png); 
+    background-size: cover;
+    border: 1px red solid;
+    cursor:url(../images/curser_over.png), auto;
+    
+}
+a{
+    width:60px;
+}
+
+#one{
+    margin-left:11%;
+    margin-top:5%;
+}
+#two{
+    margin-left:11%;
+    margin-top:4%;
+}
+.item{
+
+    width:60px;
+    height: 50px;
+}
