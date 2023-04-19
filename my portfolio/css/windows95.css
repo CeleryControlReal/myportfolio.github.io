@@ -5,17 +5,36 @@ body{
     cursor:url(../images/cursor.png), auto;
     width:100%;
 }
+
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    /* border:rgb(14, 255, 34) 3px solid;  */
+}
+
 .folder{
     width:60px;
     height: 50px;
     background-image: url(../images/folder.png); 
     background-size: cover;
     border: 1px red solid;
-    cursor:url(../images/curser_over.png), auto;
-    
+    cursor:url(../images/curser_over.png), auto;   
 }
 a{
     width:60px;
+    cursor:url(../images/curser_over.png), auto;   
 }
 
 #one{
@@ -30,4 +49,8 @@ a{
 
     width:60px;
     height: 50px;
+}
+
+#resnick{
+    display:none;
 }
