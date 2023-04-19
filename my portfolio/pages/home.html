@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Windows95</title>
-        <!-- <link rel = "stylesheet" type="text/css" href= "../css/windows95.css"/> -->
-        <link id = "theme" rel = "stylesheet" type="text/css" href= ""/>
+
+        <!-- <link rel = "stylesheet" type="text/css" href= "../css/portal.css"/> -->
+        <link id = "theme" rel = "stylesheet" type="text/css" href= "../css/default.css"/>
 
         <style>
 
@@ -51,12 +52,29 @@
             </div>
         </div>
        
+
+        <div id = "portal">
+            <div id = "portals">
+                <img src = "../images/portalblue.png" alt = "blue portal" width="200px" style = " left: 40px; position: absolute; z-index: 21;" />
+                <a href = "https://calebtheeator.github.io" class = "linked" style = "left:65px; top:125px;"></a>
+                    <div id="wrap" style = "left:65px; top:125px;">
+                        <iframe src = "https://calebtheeator.github.io" id = "frame" allowfullscreen= false ></iframe>
+                    </div>
+                </a>
+                <img src = "../images/portalorange.png" alt = "blue portal" width="200px" style = " left: 300px; position: absolute; z-index: 21;" />
+                <a href = "https://mitchkuebel.github.io" class = "linked" style = "left:322px; top:125px;"></a>
+                    <div id="wrap" style = "left:322px; top:125px;">
+                        <iframe src = "https://mitchkuebel.github.io" id = "frame" allowfullscreen= false ></iframe>
+                    </div>
+                </a>
+            </div>
+        </div>
     </body>
 
     <script>
-    const stylesheets = ["resnick.css", "windows95.css"];
+    const stylesheets = ["resnick.css", "windows95.css", "portal.css"];
     let currentStylesheet = 0;
-    let styleChange = (Math.floor(Math.random() * 2) + 1) - 1;
+    let styleChange = (Math.floor(Math.random() * 3) + 1) - 1;
     const themeLink = document.getElementById("theme");
   
     function cycleStylesheets() {
