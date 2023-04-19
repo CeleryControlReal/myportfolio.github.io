@@ -4,6 +4,8 @@ body{
     background-position-y: -60px;
     cursor:url(../images/cursor.png), auto;
     width:100%;
+    font-family:sans-serif;
+    font-weight: bolder;
 }
 
 html
@@ -35,6 +37,8 @@ html, body
 a{
     width:60px;
     cursor:url(../images/curser_over.png), auto;   
+    color:black;
+    text-decoration: none;
 }
 
 #one{

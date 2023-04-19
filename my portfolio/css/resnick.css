@@ -1,3 +1,10 @@
+@font-face {
+    font-family: point;
+    src: url(../fonts/pointfree.ttf);
+}
+
+
+
 #windows95{
     display: none;
 }
@@ -11,6 +18,7 @@ body
 {
     margin: 0;
     box-sizing: border-box;
+    font-family: point;
 }
 
 html, body
